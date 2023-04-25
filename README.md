@@ -1,3 +1,3 @@
 # pacman
 Criado com HTML e CSS
-![Imagem do Pac Man](pacman.jpg)
+![Imagem do Pac Man](pacman.png)
