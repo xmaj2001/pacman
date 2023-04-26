@@ -25,7 +25,18 @@
             border-left: 60px solid yellow;
             border-right: 60px solid transparent;
             border-radius: 100%;
+            transform: translate(-50%, -50%);
+            animation: movePacman 2s linear infinite alternate;
+        }
 
+        @keyframes movePacman {
+            from {
+                transform: scale(.8);
+            }
+
+            to {
+                transform: scale(1);
+            }
         }
 
         #pacman:hover {
@@ -41,8 +52,8 @@
             width: 17px;
             height: 17px;
             position: absolute;
-            top: 1px;
-            left: 50px;
+            top: -54px;
+            left: -20px;
             background-color: black;
             border-radius: 100%;
 
